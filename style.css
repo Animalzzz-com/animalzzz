@@ -13,7 +13,7 @@ nav ul {
   display: block;
   padding: 0 18px;
   color: white;
-  font-size: 11px;
+  font-size: 15px;
   text-transform: uppercase;
   border: 1px solid transparent;
   font-family: 'DroidSansRegular';
@@ -21,4 +21,14 @@ nav ul {
 
 * {
   margin: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+.headerBanner {
+  /* display: flex; */
+  /* justify-content: right; */
+  align-items: end;
 }
