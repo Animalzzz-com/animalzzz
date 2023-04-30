@@ -36,7 +36,9 @@ main {
   margin: 10px 20px 10px 20px;
 }
 p {
+  padding-top: 5px;
   padding-bottom: 10px;
+  border-top: 2px black solid;
 }
 figcaption {
   text-align: center;
@@ -44,6 +46,13 @@ figcaption {
 .box {
   display: inline-block;
   padding-right: 10px;
+}
+.opus {
+  display: block;
+  margin: 0 auto;
+}
+div {
+  padding-bottom: 10px;
 }
 /* figure {
   display: flex-box;
