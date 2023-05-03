@@ -36,12 +36,14 @@ main {
   margin: 10px 20px 10px 20px;
 }
 p {
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 10px;
   border-top: 2px black solid;
+  font-size: 18px;
 }
 figcaption {
   text-align: center;
+  font-size: 20px;
 }
 .box {
   display: inline-block;
@@ -51,10 +53,20 @@ figcaption {
   display: block;
   margin: 0 auto;
 }
-div {
+.pictureContainer {
   display: flex;
   justify-content: space-around;
   padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  background-color: blueviolet;
+}
+a:hover {
+  background-color: blueviolet;
+  padding-top: 10px;
 }
 /* figure {
   display: flex-box;
