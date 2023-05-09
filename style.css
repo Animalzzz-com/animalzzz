@@ -68,23 +68,16 @@ a:hover {
   background-color: blueviolet;
   padding-top: 10px;
 }
-/* figure {
-  display: flex-box;
-  justify-content: center;
-} */
-/* img {
-  display: flex;
-  justify-content: wrap;
-} */
-/* @media (max-width:700px){
-  .opus{
-      width: 100%;
-  }
-  .main {
-      width: 100%;
-  }  
-} */
-/* main {
-  display: flex;
-  flex-direction: column;
-} */
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 30% 35% 35%;
+  place-items: top;
+  /* gap: 20px */
+  /* grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px; */
+}
+.grid {
+  
+}
