@@ -73,11 +73,13 @@ a:hover {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 20% 30% 35% 35%;
-  place-items: top;
-  /* gap: 20px */
-  /* grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px 200px; */
+  place-items: center;
+
 }
-.grid {
-  
+
+@media (max-width: 1268px) {
+  .galleryGrid {
+    display: flex;
+    flex-direction: column;
+  }
 }
