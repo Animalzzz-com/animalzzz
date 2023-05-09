@@ -35,7 +35,7 @@ header {
 main {
   margin: 10px 20px 10px 20px;
 }
-p {
+.testimonials {
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 2px black solid;
@@ -82,4 +82,12 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+.fees {
+  padding-top: 15px;
 }
