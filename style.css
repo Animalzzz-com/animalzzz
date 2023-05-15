@@ -91,3 +91,7 @@ h3 {
 .fees {
   padding-top: 15px;
 }
+
+.hidden {
+  display: none;
+}
