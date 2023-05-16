@@ -84,6 +84,22 @@ a:hover {
   }
 }
 
+@media (max-width: 500px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .menuHidden {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  #menu {
+    display: none;
+  }
+}
+
 h3 {
   padding-top: 20px;
 }
@@ -92,6 +108,6 @@ h3 {
   padding-top: 15px;
 }
 
-.hidden {
-  display: none;
-}
+/* .hidden {
+  display: flex;
+} */
